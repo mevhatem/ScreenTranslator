@@ -1,0 +1,53 @@
+com.screentranslator.app-animation-core-release-0 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00909b36403648c59470e3bb2864625c\transformed\animation-core-release\res
+com.screentranslator.app-ui-release-1 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00f1b4b0e7197e432abd3cb65d733a27\transformed\ui-release\res
+com.screentranslator.app-foundation-layout-release-2 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a4538c27c635a3c0722fd466f0721f1\transformed\foundation-layout-release\res
+com.screentranslator.app-emoji2-views-helper-1.3.0-3 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a88b476636d2f89aa2fa7ca1588097a\transformed\emoji2-views-helper-1.3.0\res
+com.screentranslator.app-core-1.13.1-4 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\res
+com.screentranslator.app-annotation-experimental-1.4.0-5 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\13fa287bdaf19b59e6e7a1061351a549\transformed\annotation-experimental-1.4.0\res
+com.screentranslator.app-ui-text-release-6 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\14e2d240382652872de720b09343ea39\transformed\ui-text-release\res
+com.screentranslator.app-profileinstaller-1.3.1-7 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\res
+com.screentranslator.app-material-icons-extended-release-8 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\193e7671c5878ca01bc9c17fa2569fae\transformed\material-icons-extended-release\res
+com.screentranslator.app-lifecycle-livedata-core-2.8.4-9 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\1d21b6c306bd1c0cb8dcc2cfe6f32170\transformed\lifecycle-livedata-core-2.8.4\res
+com.screentranslator.app-material-ripple-release-10 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\20ec86c61579ca90d286c98bca2094e9\transformed\material-ripple-release\res
+com.screentranslator.app-lifecycle-runtime-release-11 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2202f3b3aa0019991f1c24d09cca84ed\transformed\lifecycle-runtime-release\res
+com.screentranslator.app-core-ktx-1.13.1-12 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\22736ffd833b165564f0cd816d91b65e\transformed\core-ktx-1.13.1\res
+com.screentranslator.app-animation-release-13 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\283ec5549cfd05e82f491f82318bb5c8\transformed\animation-release\res
+com.screentranslator.app-lifecycle-livedata-core-ktx-2.8.4-14 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\28ff748b0d69b71fef84da116fc064a4\transformed\lifecycle-livedata-core-ktx-2.8.4\res
+com.screentranslator.app-ui-util-release-15 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2cc02cac8609f6ed395c99da01ce2649\transformed\ui-util-release\res
+com.screentranslator.app-customview-poolingcontainer-1.0.0-16 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3053297f251ca1a10db2646298400ea8\transformed\customview-poolingcontainer-1.0.0\res
+com.screentranslator.app-material3-release-17 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\30eb48ca468b06b92b8454d5b99173b4\transformed\material3-release\res
+com.screentranslator.app-ui-unit-release-18 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\334b3e13783be75008cbce14bcbaced6\transformed\ui-unit-release\res
+com.screentranslator.app-core-runtime-2.2.0-19 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\37eb6e29c9b756df0db339b81ad53655\transformed\core-runtime-2.2.0\res
+com.screentranslator.app-material-icons-core-release-20 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5909d438daa25ba49cd285c662b75651\transformed\material-icons-core-release\res
+com.screentranslator.app-activity-compose-1.9.1-21 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5dcede7170c283f5dcca20678f1eb6c3\transformed\activity-compose-1.9.1\res
+com.screentranslator.app-fragment-1.3.6-22 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\61c772a10f06dba3274dd2e74763b2cd\transformed\fragment-1.3.6\res
+com.screentranslator.app-play-services-basement-18.1.0-23 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\res
+com.screentranslator.app-runtime-release-24 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\72bbeb8e81e1dc481e9068032143bb67\transformed\runtime-release\res
+com.screentranslator.app-emoji2-1.3.0-25 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\res
+com.screentranslator.app-activity-ktx-1.9.1-26 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7bf7d6aaa3d91a1494cef1925189b219\transformed\activity-ktx-1.9.1\res
+com.screentranslator.app-ui-geometry-release-27 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\872243b2abc3e32a834902e1daafbaf3\transformed\ui-geometry-release\res
+com.screentranslator.app-foundation-release-28 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8939afcf6769e2ddbc88118569b088c9\transformed\foundation-release\res
+com.screentranslator.app-ui-graphics-release-29 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8cbc74b61f9ee802e1cf2edba998cab4\transformed\ui-graphics-release\res
+com.screentranslator.app-appcompat-1.6.1-30 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8f5c356917a9ce2241474a8b8f7aaa81\transformed\appcompat-1.6.1\res
+com.screentranslator.app-savedstate-1.2.1-31 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93ea2442c041b486ac74e9acc537284e\transformed\savedstate-1.2.1\res
+com.screentranslator.app-ui-tooling-preview-release-32 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\971c16cd06e8188dfb692d50e0b6533e\transformed\ui-tooling-preview-release\res
+com.screentranslator.app-translate-17.0.2-33 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\res
+com.screentranslator.app-activity-1.9.1-34 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\99417560667f1f229a93a7007974ec63\transformed\activity-1.9.1\res
+com.screentranslator.app-lifecycle-process-2.8.4-35 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\res
+com.screentranslator.app-savedstate-ktx-1.2.1-36 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a86f1353dea2b8363fc8cec6f9c0152\transformed\savedstate-ktx-1.2.1\res
+com.screentranslator.app-lifecycle-viewmodel-ktx-2.8.4-37 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\a221e1da1a3021ea00b83c60f6514759\transformed\lifecycle-viewmodel-ktx-2.8.4\res
+com.screentranslator.app-appcompat-resources-1.6.1-38 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\abd437f76781dfd45b6aec1046bec3e4\transformed\appcompat-resources-1.6.1\res
+com.screentranslator.app-lifecycle-runtime-ktx-release-39 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\b01de3e3b92a2eb2113c85826ecc5379\transformed\lifecycle-runtime-ktx-release\res
+com.screentranslator.app-lifecycle-viewmodel-savedstate-2.8.4-40 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c16a8b70a90b448d1ff2f10db3754a6d\transformed\lifecycle-viewmodel-savedstate-2.8.4\res
+com.screentranslator.app-startup-runtime-1.1.1-41 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\res
+com.screentranslator.app-lifecycle-service-2.8.4-42 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d6530c0aaea7bbf603beb36bea4c1873\transformed\lifecycle-service-2.8.4\res
+com.screentranslator.app-runtime-saveable-release-43 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d8dc41b1ccd567534ea0817383ce2c7e\transformed\runtime-saveable-release\res
+com.screentranslator.app-play-services-base-18.1.0-44 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\res
+com.screentranslator.app-lifecycle-viewmodel-release-45 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f323c124b28c5455fac43b2e41cb3f1b\transformed\lifecycle-viewmodel-release\res
+com.screentranslator.app-lifecycle-livedata-2.8.4-46 C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f56a1a5deb0cd351a296e789f2ed85e7\transformed\lifecycle-livedata-2.8.4\res
+com.screentranslator.app-resValues-47 C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\build\generated\res\resValues\debug
+com.screentranslator.app-packageDebugResources-48 C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.screentranslator.app-packageDebugResources-49 C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.screentranslator.app-debug-50 C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.screentranslator.app-debug-51 C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\debug\res
+com.screentranslator.app-main-52 C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\res

@@ -1,0 +1,546 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\bdd327b6aaffcb072158b2fd8cda870a\transformed\viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:text-recognition:16.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\87ae9aa6163066d9b64b175e05c82f7c\transformed\text-recognition-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f17d4b75cf026e4a8b561b4c35ef287e\transformed\play-services-mlkit-text-recognition-19.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\db45fcbe8607d1727f6b4efaf88231d9\transformed\text-recognition-bundled-common-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\30eb48ca468b06b92b8454d5b99173b4\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5dcede7170c283f5dcca20678f1eb6c3\transformed\activity-compose-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5909d438daa25ba49cd285c662b75651\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\193e7671c5878ca01bc9c17fa2569fae\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\20ec86c61579ca90d286c98bca2094e9\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00909b36403648c59470e3bb2864625c\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\283ec5549cfd05e82f491f82318bb5c8\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a4538c27c635a3c0722fd466f0721f1\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8939afcf6769e2ddbc88118569b088c9\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\334b3e13783be75008cbce14bcbaced6\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\872243b2abc3e32a834902e1daafbaf3\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2cc02cac8609f6ed395c99da01ce2649\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\14e2d240382652872de720b09343ea39\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\971c16cd06e8188dfb692d50e0b6533e\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8cbc74b61f9ee802e1cf2edba998cab4\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00f1b4b0e7197e432abd3cb65d733a27\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7bf7d6aaa3d91a1494cef1925189b219\transformed\activity-ktx-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\abd437f76781dfd45b6aec1046bec3e4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8f5c356917a9ce2241474a8b8f7aaa81\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\61c772a10f06dba3274dd2e74763b2cd\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\99417560667f1f229a93a7007974ec63\transformed\activity-1.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a86f1353dea2b8363fc8cec6f9c0152\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93ea2442c041b486ac74e9acc537284e\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\738d54aef4201ee9de4b3542d4ddfd91\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a88b476636d2f89aa2fa7ca1588097a\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\28ff748b0d69b71fef84da116fc064a4\transformed\lifecycle-livedata-core-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f56a1a5deb0cd351a296e789f2ed85e7\transformed\lifecycle-livedata-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\1d21b6c306bd1c0cb8dcc2cfe6f32170\transformed\lifecycle-livedata-core-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c16a8b70a90b448d1ff2f10db3754a6d\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f01d05b844ee03661ed895cffb549349\transformed\lifecycle-viewmodel-2.8.4\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f323c124b28c5455fac43b2e41cb3f1b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\a221e1da1a3021ea00b83c60f6514759\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2202f3b3aa0019991f1c24d09cca84ed\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d6530c0aaea7bbf603beb36bea4c1873\transformed\lifecycle-service-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\b01de3e3b92a2eb2113c85826ecc5379\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d8dc41b1ccd567534ea0817383ce2c7e\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\72bbeb8e81e1dc481e9068032143bb67\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\835186f39157e3db896c1f4701d32775\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\35c40697d9d49e32f2bed13f5569e143\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\992b4e69ca11ccc03f17a0b7283efb7d\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2c91cd9b9d558a8bb08f02d4a1c3789b\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d3c1429abbb33dce744add1973f6e0cc\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\ce397289e27a0d677a7a818da157feac\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d5bc7cacfc58263c9121a97e13060aa6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\75719382a028d8db81834e6269226f50\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3053297f251ca1a10db2646298400ea8\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\22736ffd833b165564f0cd816d91b65e\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\13fa287bdaf19b59e6e7a1061351a549\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4aff85afaa069bf0f16aae55c9243715\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3dd20a9e9aed0d4f2a5bdb963cb9c180\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fa6a5464addcb75b310c8dd0a5b53925\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c079b3db3e503e7edc8dd2b525b4b3a5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7567fe2058555a830bbfb9e29b1c87ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\37eb6e29c9b756df0db339b81ad53655\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4539b5a2a415fa4effac47ef501caa1a\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c13c3772f141942cd399fcd08b9a19a7\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4db5e3dda4db974d3cd42df2f7969b0a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93c189b82877681249de7e86fb3c8afb\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:9:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:13:5-94
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:13:22-91
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:16:22-74
+application
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:18:5-45:19
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:18:5-45:19
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\35c40697d9d49e32f2bed13f5569e143\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\35c40697d9d49e32f2bed13f5569e143\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7567fe2058555a830bbfb9e29b1c87ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7567fe2058555a830bbfb9e29b1c87ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93c189b82877681249de7e86fb3c8afb\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93c189b82877681249de7e86fb3c8afb\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:23:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:21:9-54
+	android:roundIcon
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:26:9-54
+	android:dataExtractionRules
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:20:9-65
+activity#com.screentranslator.app.ui.MainActivity
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:exported
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:31:13-58
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:29:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:34:27-74
+service#com.screentranslator.app.service.BubbleService
+ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:39:9-43:63
+	android:enabled
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:42:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:40:13-50
+uses-sdk
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\bdd327b6aaffcb072158b2fd8cda870a\transformed\viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\bdd327b6aaffcb072158b2fd8cda870a\transformed\viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\87ae9aa6163066d9b64b175e05c82f7c\transformed\text-recognition-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\87ae9aa6163066d9b64b175e05c82f7c\transformed\text-recognition-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f17d4b75cf026e4a8b561b4c35ef287e\transformed\play-services-mlkit-text-recognition-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f17d4b75cf026e4a8b561b4c35ef287e\transformed\play-services-mlkit-text-recognition-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\db45fcbe8607d1727f6b4efaf88231d9\transformed\text-recognition-bundled-common-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\db45fcbe8607d1727f6b4efaf88231d9\transformed\text-recognition-bundled-common-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\30eb48ca468b06b92b8454d5b99173b4\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\30eb48ca468b06b92b8454d5b99173b4\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5dcede7170c283f5dcca20678f1eb6c3\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5dcede7170c283f5dcca20678f1eb6c3\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5909d438daa25ba49cd285c662b75651\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\5909d438daa25ba49cd285c662b75651\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\193e7671c5878ca01bc9c17fa2569fae\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\193e7671c5878ca01bc9c17fa2569fae\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\20ec86c61579ca90d286c98bca2094e9\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\20ec86c61579ca90d286c98bca2094e9\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00909b36403648c59470e3bb2864625c\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00909b36403648c59470e3bb2864625c\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\283ec5549cfd05e82f491f82318bb5c8\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\283ec5549cfd05e82f491f82318bb5c8\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a4538c27c635a3c0722fd466f0721f1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a4538c27c635a3c0722fd466f0721f1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8939afcf6769e2ddbc88118569b088c9\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8939afcf6769e2ddbc88118569b088c9\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\334b3e13783be75008cbce14bcbaced6\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\334b3e13783be75008cbce14bcbaced6\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\872243b2abc3e32a834902e1daafbaf3\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\872243b2abc3e32a834902e1daafbaf3\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2cc02cac8609f6ed395c99da01ce2649\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2cc02cac8609f6ed395c99da01ce2649\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\14e2d240382652872de720b09343ea39\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\14e2d240382652872de720b09343ea39\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\971c16cd06e8188dfb692d50e0b6533e\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\971c16cd06e8188dfb692d50e0b6533e\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8cbc74b61f9ee802e1cf2edba998cab4\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8cbc74b61f9ee802e1cf2edba998cab4\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00f1b4b0e7197e432abd3cb65d733a27\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\00f1b4b0e7197e432abd3cb65d733a27\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7bf7d6aaa3d91a1494cef1925189b219\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7bf7d6aaa3d91a1494cef1925189b219\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\abd437f76781dfd45b6aec1046bec3e4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\abd437f76781dfd45b6aec1046bec3e4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8f5c356917a9ce2241474a8b8f7aaa81\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\8f5c356917a9ce2241474a8b8f7aaa81\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\61c772a10f06dba3274dd2e74763b2cd\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\61c772a10f06dba3274dd2e74763b2cd\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\99417560667f1f229a93a7007974ec63\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\99417560667f1f229a93a7007974ec63\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a86f1353dea2b8363fc8cec6f9c0152\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a86f1353dea2b8363fc8cec6f9c0152\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93ea2442c041b486ac74e9acc537284e\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93ea2442c041b486ac74e9acc537284e\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\738d54aef4201ee9de4b3542d4ddfd91\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\738d54aef4201ee9de4b3542d4ddfd91\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a88b476636d2f89aa2fa7ca1588097a\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0a88b476636d2f89aa2fa7ca1588097a\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\28ff748b0d69b71fef84da116fc064a4\transformed\lifecycle-livedata-core-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\28ff748b0d69b71fef84da116fc064a4\transformed\lifecycle-livedata-core-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f56a1a5deb0cd351a296e789f2ed85e7\transformed\lifecycle-livedata-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f56a1a5deb0cd351a296e789f2ed85e7\transformed\lifecycle-livedata-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\1d21b6c306bd1c0cb8dcc2cfe6f32170\transformed\lifecycle-livedata-core-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\1d21b6c306bd1c0cb8dcc2cfe6f32170\transformed\lifecycle-livedata-core-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c16a8b70a90b448d1ff2f10db3754a6d\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c16a8b70a90b448d1ff2f10db3754a6d\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f01d05b844ee03661ed895cffb549349\transformed\lifecycle-viewmodel-2.8.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f01d05b844ee03661ed895cffb549349\transformed\lifecycle-viewmodel-2.8.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f323c124b28c5455fac43b2e41cb3f1b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f323c124b28c5455fac43b2e41cb3f1b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\a221e1da1a3021ea00b83c60f6514759\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\a221e1da1a3021ea00b83c60f6514759\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2202f3b3aa0019991f1c24d09cca84ed\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2202f3b3aa0019991f1c24d09cca84ed\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d6530c0aaea7bbf603beb36bea4c1873\transformed\lifecycle-service-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d6530c0aaea7bbf603beb36bea4c1873\transformed\lifecycle-service-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\b01de3e3b92a2eb2113c85826ecc5379\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\b01de3e3b92a2eb2113c85826ecc5379\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d8dc41b1ccd567534ea0817383ce2c7e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d8dc41b1ccd567534ea0817383ce2c7e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\72bbeb8e81e1dc481e9068032143bb67\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\72bbeb8e81e1dc481e9068032143bb67\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\835186f39157e3db896c1f4701d32775\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\835186f39157e3db896c1f4701d32775\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\35c40697d9d49e32f2bed13f5569e143\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\35c40697d9d49e32f2bed13f5569e143\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\992b4e69ca11ccc03f17a0b7283efb7d\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\992b4e69ca11ccc03f17a0b7283efb7d\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2c91cd9b9d558a8bb08f02d4a1c3789b\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\2c91cd9b9d558a8bb08f02d4a1c3789b\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d3c1429abbb33dce744add1973f6e0cc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d3c1429abbb33dce744add1973f6e0cc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\ce397289e27a0d677a7a818da157feac\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\ce397289e27a0d677a7a818da157feac\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d5bc7cacfc58263c9121a97e13060aa6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\d5bc7cacfc58263c9121a97e13060aa6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\75719382a028d8db81834e6269226f50\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\75719382a028d8db81834e6269226f50\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3053297f251ca1a10db2646298400ea8\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3053297f251ca1a10db2646298400ea8\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\22736ffd833b165564f0cd816d91b65e\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\22736ffd833b165564f0cd816d91b65e\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\13fa287bdaf19b59e6e7a1061351a549\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\13fa287bdaf19b59e6e7a1061351a549\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4aff85afaa069bf0f16aae55c9243715\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4aff85afaa069bf0f16aae55c9243715\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3dd20a9e9aed0d4f2a5bdb963cb9c180\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\3dd20a9e9aed0d4f2a5bdb963cb9c180\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fa6a5464addcb75b310c8dd0a5b53925\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fa6a5464addcb75b310c8dd0a5b53925\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c079b3db3e503e7edc8dd2b525b4b3a5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c079b3db3e503e7edc8dd2b525b4b3a5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7567fe2058555a830bbfb9e29b1c87ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\7567fe2058555a830bbfb9e29b1c87ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\37eb6e29c9b756df0db339b81ad53655\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\37eb6e29c9b756df0db339b81ad53655\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4539b5a2a415fa4effac47ef501caa1a\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4539b5a2a415fa4effac47ef501caa1a\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c13c3772f141942cd399fcd08b9a19a7\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c13c3772f141942cd399fcd08b9a19a7\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4db5e3dda4db974d3cd42df2f7969b0a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\4db5e3dda4db974d3cd42df2f7969b0a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93c189b82877681249de7e86fb3c8afb\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\93c189b82877681249de7e86fb3c8afb\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:7:22-76
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:12:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar
+ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:15:17-126
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\c6f059fb1af01a13ee4c7a35511f6b10\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.screentranslator.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.screentranslator.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

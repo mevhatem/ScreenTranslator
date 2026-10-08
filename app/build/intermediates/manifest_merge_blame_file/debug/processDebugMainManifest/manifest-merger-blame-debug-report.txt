@@ -1,0 +1,258 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.screentranslator.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- İnternet İzni: Yalnızca ilk çeviri modeli indirmesi için -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- Ekran Üzerinde Çizim İzni (Floating Bubble / Overlay) -->
+15    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+15-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:9:5-78
+15-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:9:22-75
+16
+17    <!-- Foreground Service İzinleri (Android 14+ Zorunlulukları) -->
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:12:5-77
+18-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:12:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+19-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:13:5-94
+19-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:13:22-91
+20
+21    <!-- Android 13+ Bildirim İzni -->
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:16:5-77
+22-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:16:22-74
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:7:5-79
+23-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:7:22-76
+24
+25    <permission
+25-->[androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+26        android:name="com.screentranslator.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.screentranslator.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:18:5-45:19
+32        android:allowBackup="true"
+32-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:19:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\0e812dfd2cf3d08fb287adea06834e4b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:20:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:21:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:22:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:23:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:24:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:25:9-35
+42        android:theme="@style/Theme.ScreenTranslator" >
+42-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:26:9-54
+43        <activity
+43-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:28:9-36:20
+44            android:name="com.screentranslator.app.ui.MainActivity"
+44-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:29:13-44
+45            android:exported="true"
+45-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:30:13-36
+46            android:theme="@style/Theme.ScreenTranslator" >
+46-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:31:13-58
+47            <intent-filter>
+47-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:32:13-35:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:33:17-69
+48-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:34:17-77
+50-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:34:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <!-- Kayan Baloncuk & Ekran Yakalama Foreground Servisi -->
+55        <service
+55-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:39:9-43:63
+56            android:name="com.screentranslator.app.service.BubbleService"
+56-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:40:13-50
+57            android:enabled="true"
+57-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:41:13-35
+58            android:exported="false"
+58-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:42:13-37
+59            android:foregroundServiceType="mediaProjection" />
+59-->C:\Users\ebulm\OneDrive\Desktop\Android Ekran Cevirici\app\src\main\AndroidManifest.xml:43:13-60
+60        <service
+60-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:11:9-17:19
+61            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+61-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:12:13-91
+62            android:directBootAware="true"
+62-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:17:13-43
+63            android:exported="false" >
+63-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:13:13-37
+64            <meta-data
+64-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:14:13-16:85
+65                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar"
+65-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:15:17-126
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.mlkit:translate:17.0.2] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\98e129970ad09f8c028e0b7a895b8713\transformed\translate-17.0.2\AndroidManifest.xml:16:17-82
+67            <meta-data
+67-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+68-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:13:17-114
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\80f0aeb0036f7a9cf391a7aafdbf17f0\transformed\play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+71-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\f3b49a376631cefd2ce53d0432284a84\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:20:13-22:85
+74                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+74-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:21:17-120
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:22:17-82
+76        </service>
+77
+78        <provider
+78-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:9:9-13:38
+79            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+79-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:10:13-78
+80            android:authorities="com.screentranslator.app.mlkitinitprovider"
+80-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:11:13-69
+81            android:exported="false"
+81-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:12:13-37
+82            android:initOrder="99" />
+82-->[com.google.mlkit:common:18.10.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\63a44371dd31c7d7da4d85b7de14cac4\transformed\common-18.10.0\AndroidManifest.xml:13:13-35
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\eb4ad2c6aa2402951a15157a8df18029\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+91            android:authorities="com.screentranslator.app.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\77141188280c620ceee6bc49ee84734d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\9a327521239825cf1e3bf0dbf15383d7\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+101                android:value="androidx.startup" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+102        </provider>
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\6614758737485d3ae13de5b527275c59\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+107
+108        <service
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+109            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+110            android:exported="false" >
+110-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+111            <meta-data
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+112                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+113                android:value="cct" />
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\fae359f9c661c8011d4f77b8f6d25624\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+114        </service>
+115        <service
+115-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+116            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+116-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+117            android:exported="false"
+117-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" >
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+119        </service>
+120
+121        <receiver
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+122-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+123            android:exported="false" />
+123-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\92900d0813a4b19d94311c982b85b81b\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+124        <receiver
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+125            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+126            android:directBootAware="false"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+127            android:enabled="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+128            android:exported="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+129            android:permission="android.permission.DUMP" >
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+131                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+134                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+137                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+140                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ebulm\.gradle\caches\9.6.0\transforms\17d32327311f0de85dab8057ffa015d7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+141            </intent-filter>
+142        </receiver>
+143    </application>
+144
+145</manifest>

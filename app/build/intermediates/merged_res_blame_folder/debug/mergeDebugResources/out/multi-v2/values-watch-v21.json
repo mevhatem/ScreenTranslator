@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.screentranslator.app-mergeDebugResources-49:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ebulm\\.gradle\\caches\\9.6.0\\transforms\\8f5c356917a9ce2241474a8b8f7aaa81\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

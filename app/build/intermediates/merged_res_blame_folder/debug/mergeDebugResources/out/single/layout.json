@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.screentranslator.app-mergeDebugResources-50:/layout/layout_result_card.xml",
+        "source": "com.screentranslator.app-main-53:/layout/layout_result_card.xml"
+    },
+    {
+        "merged": "com.screentranslator.app-mergeDebugResources-50:/layout/layout_floating_bubble.xml",
+        "source": "com.screentranslator.app-main-53:/layout/layout_floating_bubble.xml"
+    }
+]

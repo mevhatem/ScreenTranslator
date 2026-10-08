@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ekran Çevirici</string>
+    <string name="notification_channel_id">screen_translator_channel</string>
+    <string name="notification_channel_name">Ekran Çevirici Servisi</string>
+    <string name="notification_channel_desc">Ekran çevirmeni arka planda çalışırken bildirim gösterir.</string>
+    <string name="notification_title">Ekran Çevirici Aktif</string>
+    <string name="notification_text">Ekrana dokunarak çeviri yapmak için baloncuğu kullanın.</string>
+</resources>

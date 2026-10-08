@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.screentranslator.app-debug-51:/drawable_bg_bubble.xml.flat",
+        "source": "com.screentranslator.app-main-53:/drawable/bg_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_bg_bubble.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\bg_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\layout_layout_result_card.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\layout\\layout_result_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\layout_layout_floating_bubble.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\layout\\layout_floating_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_bg_result_card.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\bg_result_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_ic_translate_bubble.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\ic_translate_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-debug-51:\\drawable_ic_copy.xml.flat",
+        "source": "C:\\Users\\ebulm\\.gradle\\daemon\\9.6.0\\com.screentranslator.app-main-53:\\drawable\\ic_copy.xml"
+    }
+]
