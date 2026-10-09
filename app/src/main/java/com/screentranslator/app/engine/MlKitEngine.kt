@@ -24,7 +24,7 @@ import kotlinx.coroutines.withContext
  * Akıllı Doğal Dil OCR ve Hibrit Çeviri Motoru:
  * - Paragrafları ve cümleleri ortadan bölmez! Cümle bütünlüğünü koruyarak
  *   Google Translate Cloud motoruna iletir (kusursuz doğal Türkçe).
- * - Menü ve buton gibi bağımsız küçük öğeleri ise hassas satır koordinatlarıyla çevirir.
+ * - Orijinal metinlerin gerçek yazı tipi boyutlarını (font size) piksel piksel hesaplar.
  */
 class MlKitEngine(
     sourceLang: String = TranslateLanguage.ENGLISH,
@@ -81,7 +81,7 @@ class MlKitEngine(
     }
 
     /**
-     * RAM üzerindeki Bitmap'ten cümle bütünlüğünü koruyarak yüksek kaliteli çeviriler üretir.
+     * RAM üzerindeki Bitmap'ten cümle bütünlüğünü ve 1:1 orijinal yazı tipi boyutlarını koruyarak çevirir.
      */
     suspend fun processImageWithBlocks(bitmap: Bitmap): Pair<TranslationResult, List<TranslatedBlock>> =
         withContext(Dispatchers.Default) {
@@ -104,7 +104,8 @@ class MlKitEngine(
                     )
                 }
 
-                val targetUnits = mutableListOf<Pair<String, Rect>>()
+                // (text, boundingBox, originalFontSize)
+                val targetUnits = mutableListOf<Triple<String, Rect, Float>>()
 
                 for (block in visionText.textBlocks) {
                     val lines = block.lines
@@ -112,36 +113,40 @@ class MlKitEngine(
 
                     val box = block.boundingBox ?: continue
 
-                    // Eğer bir blok birden fazla satırdan oluşuyorsa (paragraf / tweet / açıklama):
-                    // Cümleyi satır satır bölmek yerine BOŞLUKLA BİRLEŞTİREREK tek parça halinde çevir!
-                    // Bu sayede bağlam kopmaz, yapay zeka cümlenin tamamını anlar ve akıcı Türkçe çevirir.
                     if (lines.size > 1) {
+                        // Çok satırlı paragraf: Satırları boşlukla birleştir
                         val fullParagraphText = lines.joinToString(" ") { it.text.trim() }.trim()
                         if (fullParagraphText.length >= 2 && fullParagraphText.any { it.isLetter() }) {
-                            targetUnits.add(Pair(fullParagraphText, box))
+                            // Ortalama satır yüksekliğinden gerçek yazı boyutu hesapla
+                            val heights = lines.mapNotNull { it.boundingBox?.height()?.toFloat() }
+                            val avgHeight = if (heights.isNotEmpty()) heights.average().toFloat() else (box.height().toFloat() / lines.size)
+                            val fontSize = avgHeight * 0.72f
+                            targetUnits.add(Triple(fullParagraphText, box, fontSize))
                         }
                     } else {
-                        // Tek satırlık menü, buton, kullanıcı adı gibi bağımsız öğeler
+                        // Tek satırlık menü, buton, kullanıcı adı
                         val line = lines[0]
                         val lineBox = line.boundingBox ?: box
                         val text = line.text.trim()
                         if (text.length >= 2 && text.any { it.isLetter() }) {
-                            targetUnits.add(Pair(text, lineBox))
+                            val fontSize = lineBox.height().toFloat() * 0.72f
+                            targetUnits.add(Triple(text, lineBox, fontSize))
                         }
                     }
                 }
 
-                Log.d(TAG, "Bağlam korumalı çevrilecek birim sayısı: ${targetUnits.size}")
+                Log.d(TAG, "Bağlam ve font boyutlu çevrilecek birim sayısı: ${targetUnits.size}")
 
-                // Paralel Çeviri (Google Translate Cloud)
-                val deferredUnits = targetUnits.map { (text, box) ->
+                // Paralel Çeviri
+                val deferredUnits = targetUnits.map { (text, box, fontSize) ->
                     async(Dispatchers.IO) {
                         try {
                             val translated = smartTranslate(text)
                             TranslatedBlock(
                                 originalText = text,
                                 translatedText = translated,
-                                boundingBox = box
+                                boundingBox = box,
+                                originalFontSize = fontSize
                             )
                         } catch (e: Exception) {
                             Log.e(TAG, "Çeviri hatası: ${e.message}")

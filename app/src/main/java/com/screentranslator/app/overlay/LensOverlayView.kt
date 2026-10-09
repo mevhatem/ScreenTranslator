@@ -20,6 +20,7 @@ import kotlin.math.min
 /**
  * Google Lens in-place çeviri katmanı.
  * Özellikler:
+ * - Orijinal metnin yazı tipi boyutuyla (font size) 1:1 birebir aynı boyutta çeviri gösterimi.
  * - İki parmakla kıstırarak yakınlaştırma (Pinch-to-Zoom: 1x .. 4x).
  * - Yakınlaştırıldığında parmakla kaydırma (Pan / Drag).
  * - Çift dokunarak hızlı yakınlaştırma / sıfırlama (Double Tap).
@@ -142,17 +143,47 @@ class LensOverlayView(
             val right = box.right * scaleX
             val bottom = box.bottom * scaleY
 
+            // Orijinal metnin gerçek yazı boyutu (ekran ölçeğine göre)
+            val baseFontSize = (block.originalFontSize * scaleY).coerceIn(8f, 60f)
+            textPaint.textSize = baseFontSize
+
+            val targetWidth = (max(20f, (right - left)) - 6f).toInt()
+
+            var staticLayout = StaticLayout.Builder.obtain(
+                block.translatedText,
+                0,
+                block.translatedText.length,
+                textPaint,
+                targetWidth
+            )
+                .setAlignment(Layout.Alignment.ALIGN_NORMAL)
+                .setLineSpacing(0f, 1.05f)
+                .setIncludePad(false)
+                .build()
+
+            // Orijinal kutu yüksekliği ile çeviri yüksekliğini karşılaştır
+            // Metin uzunsa kutuyu aşağı doğru doğal yüksekliğine esnet
+            val minHeight = bottom - top
+            val contentHeight = staticLayout.height.toFloat() + 6f
+            val cardHeight = max(minHeight, contentHeight)
+
             val rectF = RectF(
                 (left - 3f).coerceAtLeast(0f),
                 (top - 2f).coerceAtLeast(0f),
                 (right + 3f).coerceAtMost(width.toFloat()),
-                (bottom + 2f).coerceAtMost(height.toFloat())
+                (top + cardHeight).coerceAtMost(height.toFloat())
             )
 
+            // Yarı saydam kartı ve kenarlığını çiz
             canvas.drawRoundRect(rectF, 8f, 8f, blockBgPaint)
             canvas.drawRoundRect(rectF, 8f, 8f, borderPaint)
 
-            drawTextInsideRect(canvas, block.translatedText, rectF)
+            // Metni kartın içine tam orijinal boyutta çiz
+            canvas.save()
+            val dy = rectF.top + 3f
+            canvas.translate(rectF.left + 3f, dy)
+            staticLayout.draw(canvas)
+            canvas.restore()
         }
 
         canvas.restore()
@@ -177,48 +208,6 @@ class LensOverlayView(
         canvas.drawLine(right - pad, top + pad, left + pad, bottom - pad, closeIconPaint)
     }
 
-    private fun drawTextInsideRect(canvas: Canvas, text: String, rect: RectF) {
-        val targetWidth = (rect.width() - 8).toInt().coerceAtLeast(16)
-        val targetHeight = (rect.height() - 2).toInt().coerceAtLeast(12)
-
-        var testSize = (rect.height() * 0.76f).coerceIn(9f, 22f)
-        textPaint.textSize = testSize
-
-        var staticLayout = StaticLayout.Builder.obtain(
-            text,
-            0,
-            text.length,
-            textPaint,
-            targetWidth
-        )
-            .setAlignment(Layout.Alignment.ALIGN_NORMAL)
-            .setLineSpacing(0f, 1.0f)
-            .setIncludePad(false)
-            .build()
-
-        while (staticLayout.height > targetHeight && testSize > 7.0f) {
-            testSize -= 0.5f
-            textPaint.textSize = testSize
-            staticLayout = StaticLayout.Builder.obtain(
-                text,
-                0,
-                text.length,
-                textPaint,
-                targetWidth
-            )
-                .setAlignment(Layout.Alignment.ALIGN_NORMAL)
-                .setLineSpacing(0f, 1.0f)
-                .setIncludePad(false)
-                .build()
-        }
-
-        canvas.save()
-        val dy = rect.top + ((rect.height() - staticLayout.height) / 2f).coerceAtLeast(0f)
-        canvas.translate(rect.left + 4f, dy)
-        staticLayout.draw(canvas)
-        canvas.restore()
-    }
-
     @SuppressLint("ClickableViewAccessibility")
     override fun onTouchEvent(event: MotionEvent): Boolean {
         scaleDetector.onTouchEvent(event)
@@ -226,7 +215,6 @@ class LensOverlayView(
 
         when (event.actionMasked) {
             MotionEvent.ACTION_DOWN -> {
-                // Kapatma butonuna tıklandı mı?
                 if (closeButtonRect.contains(event.x, event.y)) {
                     onDismiss()
                     return true
@@ -255,7 +243,6 @@ class LensOverlayView(
 
             MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
                 activePointerId = MotionEvent.INVALID_POINTER_ID
-                // Eğer hiç zoom yapılmamışsa ve boş alana tek tıklandıysa kapat
                 if (scaleFactor <= 1.05f && !closeButtonRect.contains(event.x, event.y)) {
                     onDismiss()
                 }
